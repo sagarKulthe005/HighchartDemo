@@ -1,0 +1,13 @@
+<div ng-controller="riskSummaryController">
+    <table>
+        <tr>
+            <td ng-repeat="values in headers">{{values}}</td>
+        </tr>
+        <tr ng-repeat="rows in records">
+            <td><a ui-sref="risk-sensitivity">{{rows.id}}</a></td>
+            <td>{{rows.firstName}}</td>
+            <td>{{rows.lastName}}</td>
+        </tr>
+    </table>
+    
+</div>

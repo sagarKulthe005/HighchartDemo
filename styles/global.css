@@ -1,0 +1,19 @@
+
+            table {
+border-collapse: collapse;
+border: 2px black solid;
+font: 12px sans-serif;
+}
+
+td {
+border: 1px black solid;
+padding: 5px;
+text-transform:capitalize;
+}
+
+.recordsCls {
+    padding-top: 10px;
+    padding-left:10px;  
+}        
+            
+        
