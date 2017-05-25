@@ -9,7 +9,7 @@ angular.module('app').controller('riskSummaryController',
                 /**Success function */
                 function (response) {
                     console.log(response);
-                    var data = response.data;
+                    var data = response;
                     for (var key in data) {
                         if (key == 0) {
                             for (var obj in data[key]) {

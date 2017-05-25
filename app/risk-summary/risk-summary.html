@@ -4,9 +4,14 @@
             <td ng-repeat="values in headers">{{values}}</td>
         </tr>
         <tr ng-repeat="rows in records">
-            <td><a ui-sref="risk-sensitivity">{{rows.id}}</a></td>
-            <td>{{rows.firstName}}</td>
-            <td>{{rows.lastName}}</td>
+            <td><a ui-sref="risk-sensitivity({id:rows.Issue_ID})">{{rows.Issue_ID}}</a></td>
+            <td>{{rows.Metric_ID}}</td>
+            <td>{{rows.Date}}</td>
+            <td>{{rows.Metric_Value}}</td>
+            <td>{{rows.LCL}}</td>
+            <td>{{rows.UCL}}</td>
+            <td>{{rows.Deviation}}</td>
+            
         </tr>
     </table>
     

@@ -1,24 +1,20 @@
-{
-    "data": [
-        {
-            "id": 1,
-            "firstName": "Satish",
-            "lastName": "Jagwani"
-        },
-        {
-            "id": 2,
-            "firstName": "Tom",
-            "lastName": "Larry"
-        },
-        {
-            "id": 3,
-            "firstName": "Sam",
-            "lastName": "Harry"
-        },
-        {
-            "id": 4,
-            "firstName": "Tim",
-            "lastName": "Lane"
-        }
-    ]
-}
+[
+    {
+        "Issue_ID": 1,
+        "Metric_ID": 1001,
+        "Date": "2017-05-07",
+        "Metric_Value": 110,
+        "LCL": 10,
+        "UCL": 100,
+        "Deviation": 0.12
+    },
+    {
+        "Issue_ID": 2,
+        "Metric_ID": 1002,
+        "Date": "2017-05-08",
+        "Metric_Value": 1000,
+        "LCL": 50,
+        "UCL": 999,
+        "Deviation": 0.01
+    }
+]

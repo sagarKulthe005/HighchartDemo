@@ -1,0 +1,72 @@
+[
+    {
+        "Metric_ID": 1002,
+        "Metric_Value": 135,
+        "Date": "2017-05-01",
+        "LCL": 50,
+        "UCL": 999
+    },
+    {
+        "Metric_ID": 1002,
+        "Metric_Value": 200,
+        "Date": "2017-05-02",
+        "LCL": 50,
+        "UCL": 999
+    },
+    {
+        "Metric_ID": 1002,
+        "Metric_Value": 180,
+        "Date": "2017-05-03",
+        "LCL": 50,
+        "UCL": 999
+    },
+    {
+        "Metric_ID": 1002,
+        "Metric_Value": 500,
+        "Date": "2017-05-04",
+        "LCL": 50,
+        "UCL": 999
+    },
+    {
+        "Metric_ID": 1002,
+        "Metric_Value": 700,
+        "Date": "2017-05-05",
+        "LCL": 50,
+        "UCL": 999
+    },
+    {
+        "Metric_ID": 1002,
+        "Metric_Value": 600,
+        "Date": "2017-05-06",
+        "LCL": 50,
+        "UCL": 999
+    },
+    {
+        "Metric_ID": 1002,
+        "Metric_Value": 900,
+        "Date": "2017-05-07",
+        "LCL": 50,
+        "UCL": 999
+    },
+    {
+        "Metric_ID": 1002,
+        "Metric_Value": 1000,
+        "Date": "2017-05-08",
+        "LCL": 50,
+        "UCL": 999
+    },
+    {
+        "Metric_ID": 1002,
+        "Metric_Value": 800,
+        "Date": "2017-05-09",
+        "LCL": 50,
+        "UCL": 999
+    },
+    {
+        "Metric_ID": 1002,
+        "Metric_Value": 850,
+        "Date": "2017-05-10",
+        "LCL": 50,
+        "UCL": 999
+    }
+]

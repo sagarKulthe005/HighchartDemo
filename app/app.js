@@ -12,7 +12,8 @@ var app = angular.module('app',
     [
         //3rd party modules
         'ui.router',
-        'ngRoute'
+        'ngRoute',
+        'ngStorage'
         //App specific modules (if any)
         , 'app'
 
@@ -24,7 +25,7 @@ var app = angular.module('app',
 */
 app.config(['$locationProvider', '$stateProvider', '$urlRouterProvider', '$controllerProvider',
     function ($locationProvider, $stateProvider, $urlRouterProvider, $controllerProvider) {
-        
+
         //Routing 
         //If no state available route to default page
         $urlRouterProvider.otherwise('/');
@@ -42,7 +43,11 @@ app.config(['$locationProvider', '$stateProvider', '$urlRouterProvider', '$contr
             .state('risk-sensitivity',
             {
                 url: '/risk-sensitivity',
-                templateUrl: 'app/risk-sensitivity/risk-sensitivity.html'
+                templateUrl: 'app/risk-sensitivity/risk-sensitivity.html',
+
+                params: {
+                    id: null
+                }
 
             })
 
